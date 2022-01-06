@@ -18,9 +18,20 @@
     <title>Projekt Seminar Physik</title>
 </head>
 <style>
+    .background-primary{
+        background-color: #36707c;
+    }
+    .color-primary{
+        color: #36707c;
+    }
+    .color-white{
+        color: white;
+    }
+    .margin-b-3{
+        margin-bottom: 3vh;
+    }
     body {
         font-family: Spartan;
-        background-color: #e7e8ee;
         padding-bottom: 50px;
     }
 
@@ -37,28 +48,30 @@
     }
 </style>
 
-<body>
+<body class="background-primary">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#" style="margin-left: 20px">
-            Hans-Leinberger Gymnasium
+            Hans-Leinberger-Gymnasium
         </a>
     </nav>
 
     <div class="container" id="mainDiv">
-        <h1>Projekt Seminar Physik</h1>
+        <h1 class="color-white text-center margin-b-3" style="font-size: 3vw;">Projekt Seminar Chemie & Physik laden ein zum</h1>
+
+        <h1 style="font-size: 8vw; text-align: center;" class="color-white mb-5">Forschertag 2022</h1>
 
         <div class="card">
             <div class="card-body">
-                Im Rahmen des jährlichen Projekt-Seminars der 12. Klassen findet am 'DATUM EINFÜGEN' ein Forschertag
+                Im Rahmen des jährlichen Projekt-Seminars der 11. Klassen findet am 18.03.2022 ein Forschertag
                 für Grundschüler statt. Dabei wollen wir den zukünftigen 5. Klassen den naturwissenschaftlichen Zweig
-                des Hans-Leinberger Gymnasiums vorstellen, sowie und den Übertritt an unser Gymnasium erleichtern.
+                des Hans-Leinberger-Gymnasiums vorstellen, sowie und den Übertritt an unser Gymnasium erleichtern.
             </div>
         </div>
-        <h2>Wann und Wo?</h2>
+        <h2 class="color-white">Wann und Wo?</h2>
         <div class="card">
             <div class="card-body">
-                Am 'DATUM EINFÜGEN' um 'UHRZEIT' am Hans-Leinberger Gymnasium
+                Am 18.03.2022 um 14:30 Uhr am Hans-Leinberger-Gymnasium
                 <br>
                 <br>
                 Jürgen-Schumann-Straße 20,
@@ -67,7 +80,7 @@
             </div>
         </div>
 
-        <h2>Ihr habt Interesse?</h2>
+        <h2 class="color-white">Ihr habt Interesse?</h2>
         <div class="card">
             <div class="card-body">
                 Dann meldet euch doch kurz Online An!
@@ -77,14 +90,14 @@
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="vorname" required
                                     placeholder="Vorname">
-                                <label for="vorname">Vorname des Kindes</label>
+                                <label for="vorname">Vorname des Kindes *</label>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 mt-4">
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="nachname" required
                                     placeholder="Nachname">
-                                <label for="nachname">Nachname des Kindes</label>
+                                <label for="nachname">Nachname des Kindes *</label>
                             </div>
                         </div>
                     </div>
@@ -93,7 +106,7 @@
                             <div class="form-floating mb-3">
                                 <input type="email" class="form-control" id="email" required
                                     placeholder="E-Mail">
-                                <label for="email">E-Mail</label>
+                                <label for="email">E-Mail *</label>
                             </div>
                         </div>
                     </div>
@@ -105,6 +118,7 @@
                             </div>
                         </div>
                     </div>
+                    * Pflichtfelder
                     <div class="row">
                         <div class="col-12 mt-2">
                             <button type="submit" class="btn btn-dark">Absenden</button>

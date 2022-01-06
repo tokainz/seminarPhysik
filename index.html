@@ -39,12 +39,14 @@
         margin-top: 40px;
     }
 
-    #mainDiv {
-        margin-top: 30px;
-    }
-
     .card {
         border-radius: 15px;
+    }
+    a{
+        color:white;
+    }
+    a:hover{
+        color: lightgray;
     }
 </style>
 
@@ -55,28 +57,77 @@
             Hans-Leinberger-Gymnasium
         </a>
     </nav>
+    <div class="container-fluid p-0" style="position: relative;">
+        <img src="./images/header/header.jpg" alt="" class="img-fluid" style="filter: brightness(30%)">
+        <div class="text-center" style="position: absolute; top: 7vw; width: 100%;">
+            <h1 class="color-white text-center margin-b-3" style="font-size: 2vw;">Projekt Seminar Chemie & Physik laden ein zum</h1>
+            <h1 style="font-size: 5vw; text-align: center;" class="color-white mb-5">Forschertag 2022</h1>
+        </div>
+    </div>
 
-    <div class="container" id="mainDiv">
-        <h1 class="color-white text-center margin-b-3" style="font-size: 3vw;">Projekt Seminar Chemie & Physik laden ein zum</h1>
+    <div class="container mt-5" id="mainDiv">
 
-        <h1 style="font-size: 8vw; text-align: center;" class="color-white mb-5">Forschertag 2022</h1>
-
-        <div class="card">
-            <div class="card-body">
-                Im Rahmen des jährlichen Projekt-Seminars der 11. Klassen findet am 18.03.2022 ein Forschertag
-                für Grundschüler statt. Dabei wollen wir den zukünftigen 5. Klassen den naturwissenschaftlichen Zweig
-                des Hans-Leinberger-Gymnasiums vorstellen, sowie und den Übertritt an unser Gymnasium erleichtern.
+        <div class="row">
+            <div class="col-md-9 col-12 color-white my-auto p-5" style="font-size: larger;">
+                <div class="row mb-4" style="font-size: xx-large;">
+                    Was ist der Forschertag?
+                </div>
+                <div class="row">
+                    Im Rahmen des jährlichen Projekt-Seminars der 11. Klassen findet am 18.03.2022 ein Forschertag
+                    für Grundschüler statt. 
+                    <br>Dabei wollen wir den zukünftigen 5. Klassen den naturwissenschaftlichen Zweig
+                    des Hans-Leinberger-Gymnasiums vorstellen, sowie und den Übertritt an unser Gymnasium erleichtern.
+                </div>
+            </div>
+            <div class="col-md-3 col-12 my-auto p-3">
+                <img src="./images/Group 1.svg" alt="" class="img-fluid" >
             </div>
         </div>
-        <h2 class="color-white">Wann und Wo?</h2>
-        <div class="card">
-            <div class="card-body">
-                Am 18.03.2022 um 14:30 Uhr am Hans-Leinberger-Gymnasium
-                <br>
-                <br>
-                Jürgen-Schumann-Straße 20,
-                <br>
-                84034 Landshut
+
+        <div class="row">
+            <div class="col-md-3 d-none d-md-flex my-auto p-3">
+                <img src="./images/Group 2.svg" alt="" class="img-fluid" >
+            </div>
+            <div class="col-md-9 col-12 color-white my-auto p-5 text-right" style="font-size: larger;">
+                <div class="row mb-4" style="font-size: xx-large;">
+                    Wo und Wann?
+                </div>
+                <div class="row">
+                    Am 18.03.2022 um 14:30 Uhr am Hans-Leinberger-Gymnasium
+                    <br>
+                    <br>
+                    Jürgen-Schumann-Straße 20,
+                    <br>
+                    84034 Landshut
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 d-md-none my-auto p-3">
+                <img src="./images/Group 2.svg" alt="" class="img-fluid" >
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9 col-12 color-white my-auto p-5 text-right" style="font-size: larger;">
+                <div class="row mb-4" style="font-size: xx-large;">
+                    Wo gibt es weitere Infos?
+                </div>
+                <div class="row">
+                    Weitere Infos folgen nach dem Anmelden in einem seperaten Elternbrief.
+                    <br><br>
+
+                    Wenn ihr trotzdem noch Fragen habt könnt ihr uns gerne unter <br>
+                    <a href = "mailto: forschertag2022@h-l-g.net">forschertag2022@h-l-g.net</a> oder unter:
+                    <br>
+                    <a href = "tel: 0871 962600">0871 962600</a>
+                    erreichen.
+
+                </div>
+            </div>
+            <div class="col-md-3 my-auto p-3">
+                <img src="./images/Group 3.svg" alt="" class="img-fluid" >
             </div>
         </div>
 
@@ -118,6 +169,10 @@
                             </div>
                         </div>
                     </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="datenschutz" required>
+                        <label class="form-check-label" for="datenschutz">Ich stimmen den Datenschutzbestimmungen zu *</label>
+                      </div>
                     * Pflichtfelder
                     <div class="row">
                         <div class="col-12 mt-2">
